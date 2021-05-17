@@ -1,0 +1,37 @@
+<!--pages/my/index.wxml-->
+ <!-- <view class="bg" style="opacity:{{0.8}}"> //0-1 漂亮  透明度 -->
+<view>
+<view class="header">
+  <view class="userinfo">
+ <image  class='background' src="https://i03piccdn.sogoucdn.com/fbe9005e6a03f37e" mode="aspectFill"  ></image> 
+
+    <block wx:if="{{isshowbtn}}">
+      <button  class="bt_4"  bindtap="getUserProfile" > 登录</button>
+
+  
+    </block>
+    <block wx:else>
+<image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}"  background-size="cover" ></image> 
+      <text class="user_name">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+ </view>
+ <block>
+<image class='background' src="http://cdn.duanqinghua.com/duanqinghua/img/60.jpg" mode="aspectFill"   ></image>
+
+      <button class="bt_4" bindtap="getUserProfile">称谓</button>
+      
+  
+      <button class="bt_4" bindtap="getUserProfile"> 得分</button>
+
+
+      <button class="bt_4"  bindtap="getUserProfile">功能开发计划</button>
+      
+ </block>
+
+</view>
+
+
+
+
+

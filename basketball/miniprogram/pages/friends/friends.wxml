@@ -1,0 +1,32 @@
+<!--pages/friends/friends.wxml-->
+<view class="friends">
+<view class="page-section page-section-spacing swiper">
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{background}}" wx:key="*this">
+      <swiper-item>
+        <view class="swiper-item {{item}}">{{item}}</view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="nav">
+  <i-grid>
+    <i-grid-item>
+        <i-grid-label>教学视频</i-grid-label>
+    </i-grid-item>
+    <i-grid-item>
+        <i-grid-label>创建房间</i-grid-label>
+    </i-grid-item>
+</i-grid>
+<i-grid>
+    <i-grid-item>
+        <i-grid-label>录制比赛</i-grid-label>
+    </i-grid-item>
+    <i-grid-item>
+        <i-grid-label>比赛记录</i-grid-label>
+    </i-grid-item>
+</i-grid>
+</view>
+</view>
+

@@ -1,0 +1,50 @@
+<!--pages/match1/match1.wxml-->
+<!--    asdasd-->
+<swiper indicator-dots="{{indicatorDots}}" 
+autoplay="{{autoplay}}" 
+interval="{{interval}}"
+duration=" {{duration}}"
+
+
+indicator-dots="true">
+<!-- 页面滑动按钮-->
+
+  <block wx:for="{{imgUrls}}">
+  <swiper-item>
+      <image src="{{item}}"
+class="slide-image" width="355" 
+height="150" />
+
+    </swiper-item>
+
+  </block>
+
+</swiper>
+
+
+<view class="container">
+  <view class="userinfo">
+    <block wx:if="{{!hasUserInfo}}">
+      <button  bindtap="tonextpage1_1" type="primary" >新建</button>
+      
+    </block>
+    <block wx:else>
+      <image bindtap="p" class="" src="{{}}" mode=""></image>
+      <text class="">{{}}</text>
+    </block>
+  </view>
+</view>
+
+<view class="container">
+  <view class="userinfo">
+    <block wx:if="{{!hasUserInfo}}">
+      <button type="primary" bindtap="">好友</button>
+      
+    </block>
+    <block wx:else>
+      <image bindtap="p" class="" src="{{}}" mode=""></image>
+      <text class="">{{}}</text>
+    </block>
+  </view>
+</view>
+

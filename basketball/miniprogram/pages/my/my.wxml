@@ -1,0 +1,24 @@
+<view id="my">
+  <view class="head">
+    <view class='person'>
+      <view class="my_img">
+        <image src='../../static/image/01.jpg'></image>
+      </view>
+      <view class='name'>萨达</view>
+    </view>
+    <view class="my_content">
+      <view class='bgimg' >
+        12313
+      </view>
+      <view class='contact'>
+        <view class='myvip'>
+          <view> <text style="font-size:40rpx;color:#e3bc71;">个人信息</text></view>
+          <view style='color:#e3bc71;font-size:26rpx;'>账户余额</view>
+          <navigator url="/pages/myconcat/myconcat" class='per_contact'> 
+            <text>个人联系方式</text> 
+            <image src='../../static/image/right1.png'></image></navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,4 @@
+.swiper-item{
+  background-color: red;
+  height: 100%;
+}

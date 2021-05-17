@@ -1,0 +1,8 @@
+
+{
+  "usingComponents": {
+    "mp-sticky": "/pages/information/@miniprogram-component-plus/sticky/miniprogram_dist/index"
+  },
+  "navigationBarTitleText":"个人信息"
+
+}

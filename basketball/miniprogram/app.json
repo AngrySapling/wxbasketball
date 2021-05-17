@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/friends/friends",
+    "pages/shequ/shequ",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#0f0",
+    "list": [
+      {
+        "pagePath": "pages/friends/friends",
+        "text": "球友",
+        "iconPath": "static/images/tabbar/toulan1.png",
+        "selectedIconPath": "static/images/tabbar/toulan2.png"
+      },
+      {
+        "pagePath": "pages/shequ/shequ",
+        "text": "社区",
+        "iconPath": "static/images/tabbar/koulan2.png",
+        "selectedIconPath": "static/images/tabbar/koulan1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人",
+        "iconPath": "static/images/tabbar/gerenxinxi1.png",
+        "selectedIconPath": "static/images/tabbar/gerenxinxi2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
